@@ -41,3 +41,22 @@ figure.foto-legenda:hover figcaption {
 }
 
 
+/* formatacao do menu */
+
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;   
+}
+
+nav#menu il {
+   display: inline-block;
+   
+}
+
+
+
+
+
+
+
+
