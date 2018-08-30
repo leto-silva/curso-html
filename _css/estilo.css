@@ -43,13 +43,23 @@ figure.foto-legenda:hover figcaption {
 
 /* formatacao do menu */
 
-nav#menu ul {
-	list-style: none;
-	text-transform: uppercase;   
+nav#menu {
+	display: block;
 }
 
-nav#menu il {
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase; 
+    position: absolute;
+    top: 0px;
+	
+}
+
+nav#menu li {
    display: inline-block;
+   background-color: #dddddd;
+   padding: 10px;
+   margin: 2px;
    
 }
 
